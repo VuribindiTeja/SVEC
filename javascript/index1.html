@@ -1,0 +1,108 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    
+</head>
+<body> 
+  <div class="main">
+    <div class="child"> 
+    <h2 id="demo"> Heading</h2>
+    </div>
+
+  </div>
+    <script>  
+    // hoisting
+     //console.log(age);
+     //let age=17;
+   // let employee={
+    //  name:"teja",
+      //designation:"student",
+      //salary:"3.5lpa",
+      //mobile:8247079056
+
+ //
+
+
+  //console.log(employee.salary) 
+  //alert 
+ // alert(" registration i succesfully completed");
+//prompt
+//let num1=prompt(" enter number");
+//console.log(num1);
+//confirm("are you sure to go");
+//console.log()
+//console.info()
+//console.log("welcome");
+ //console.info("information");
+ //console.error("ver bad");  
+ // spread operator 
+ // let externalmarks=[23,34,45,67.46]
+  //let internalmarks=[6,6,6,6,6] 
+  //let results=[23,34,...externalmarks]
+  //let final=[23,344,...externalmarks,...internalmarks] 
+  //console.log(final) 
+  //console.log(results)
+ // rest parameter 
+//   function addition(x,y,...remainData){
+//       console.log(x)
+//       console.log(y)
+//       console.log(remainData)
+
+//   }
+//   console.log(addition(2,3,24,23,2,4254)) 
+// destructuring 
+//oyees[0];
+// let employees=["sunil,teja,latha"]
+// //let name1=empl 
+  // let employee={
+  //     name:"teja",
+  //     designation:"student",
+  //     salary:"3.5lpa",
+  //     mobile:8247079056
+  // } 
+  // let{name,designation,...remainlist}=employee;
+  // console.log(name);
+  // console.log(designation);
+  // console.log(remainlist)  
+  //functions 
+  // let demo=function (x,y){ 
+  //   return x+y
+  // }
+  //  console.log(demo(3,4)) 
+  // setTimeout(function()  {
+  //  console.log("welcome") 
+  // }, 7000); 
+  // //arrow function
+  // let demo= (x,y) => { 
+  //   return x+y
+  // }
+  //  console.log(demo(3,4))
+ // let employees=[" teja","khulud","varsha"]
+  // for(let i=0;i<employees.length;i++)
+  // console.log(employees[i]) 
+ //for(let i in employees){ 
+   // console.log(i)
+//  for(let i of employees){  
+  //map
+//  let result=employees.map((element,index)=>{
+//     return element+"k"+ index
+//   })
+// //   console.log(employees) 
+//  console.log(result)
+//Map function  
+var main=document.querySelector(".main");
+var child=document.querySelector(".child");
+ var heading=document.createElement("h1");
+ heading.textContent="welcome"; 
+ child.appendChild(heading); 
+ main.appendChild(child); 
+ var content=document.getElementById("demo").innerHTML;
+ console.log(content)
+  </script> 
+
+</body>
+</html>
